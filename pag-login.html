@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widt=device-widt, initial-scale=1.o">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+    <div class="forms">
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">Login</div>
+          <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-at"></i>
+                <input type="text" placeholder="Digite seu email" id="email" required>
+                
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Digite sua senha" id="senha" required>  
+              </div>
+
+              <div class="text"><a href="#">Esqueceu a senha?</a></div>
+              <div class="button input-box">
+                <input type="submit" onclick="logar(); return false">
+              </div> 
+              
+              
+        </form>
+      </div>
+      <script>
+        function logar(){
+
+          var email = document.getElementById('email').value;
+          var senha = document.getElementById('senha').value;
+
+          if(email == "admin" && senha == "admin"){
+            alert('Sucesso');
+            location.href="carteira_de_vacina.html";
+            
+          }else{
+            alert('Usuário ou senha incorretos!!');
+          }
+        }
+
+      </script>
+    </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
+    

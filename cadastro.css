@@ -1,0 +1,61 @@
+*{margin: 3px  10px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+body{
+  background:#538bf3;
+  padding: 10px 40px;
+}
+  
+.title {
+  position:static;
+    font-size: 60px;
+    font-weight: 700px;
+    color: #333;
+    padding:10px 10px;
+  
+}
+input[type="text" i] {
+  padding: 14px 28px;
+  margin-right: 50px;
+
+}
+input[type="password" i] {
+  padding: 14px 28px;
+  margin: 10px;
+  
+}
+input[type="submit" i] {
+  padding: 10px 40px;
+  color: white;
+  background: blue;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 8px 48px;
+}
+
+.fa-user:before {
+  color: blue;
+  padding: 2px;
+}
+.fa-credit-card:before{
+  color: blue;
+}
+.fa-female:before {
+  color: blue;
+}
+.fa-at:before {
+  color: blue;
+}
+.fa-lock:before {
+  color: blue;
+}
+
+  
+.div label{
+  color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
